@@ -90,7 +90,7 @@ const GhagraLandingPage = () => {
                         <Users className="h-6 w-6 text-white" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-gray-900 text-lg mb-2">Starting from ₹700 for College Students</h3>
+                        <h3 className="font-bold text-gray-900 text-lg mb-2">Starting from ₹699 for College Students</h3>
                         <p className="text-gray-700">Special student-friendly pricing with flexible rental options for the complete festive season</p>
                       </div>
                     </div>
