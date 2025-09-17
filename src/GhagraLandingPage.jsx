@@ -16,7 +16,7 @@ const GhagraLandingPage = () => {
   });
 
   const handleBookNow = () => {
-    const phoneNumber = "919175092187";
+    const phoneNumber = "919226216553";
     const message = encodeURIComponent("Hi! I'm interested in renting/buying a Ghagra for Navratri. Please share more details.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
@@ -218,6 +218,13 @@ const GhagraLandingPage = () => {
             Book your perfect Ghagra now and make this festive season unforgettable. 
             Our team is ready to help you find the perfect outfit for your celebrations!
           </p>
+          <div className="text-center space-y-4">
+            <div className="text-white/90 text-lg font-medium">
+              📞 Call us: 
+              <span className="font-bold text-white mx-2">8261822084</span>
+              |
+              <span className="font-bold text-white mx-2">9322897315</span>
+            </div>
           <button
             onClick={handleBookNow}
             className="bg-white text-orange-600 font-bold py-4 px-8 rounded-full text-lg hover:bg-orange-50 transition-all duration-300 transform hover:scale-110 shadow-2xl flex items-center space-x-3 mx-auto group"
@@ -225,6 +232,7 @@ const GhagraLandingPage = () => {
             <Phone className="h-5 w-5 group-hover:animate-pulse" />
             <span>Book Now on WhatsApp</span>
           </button>
+          </div>
           <p className="text-white/90 mt-6 text-sm flex items-center justify-center space-x-4">
             <span>✅ Quick response</span>
             <span>✅ Easy booking</span>
